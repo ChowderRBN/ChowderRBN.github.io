@@ -1,0 +1,127 @@
+/* Profile image styling */
+.profile-img {
+    width: 200px;          /* Adjust the width of the image */
+    height: 200px;         /* Adjust the height of the image */
+    object-fit: cover;     /* Ensures the image is centered and doesn't distort */
+    border-radius: 50%;    /* Makes the image round */
+    border: 3px solid #333; /* Optional: Add a border around the image */
+    display: block;
+    margin: 0 auto 20px auto; /* Center the image with margin */
+}
+
+/* General body and layout styling */
+body {
+    font-family: "Times New Roman", Times, serif; /* Use Times New Roman font */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;  /* Make the content area narrower */
+    max-width: 800px; /* Limit the maximum width */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background-color: #fff; /* White background for readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for a lifted effect */
+    border-radius: 8px; /* Rounded corners for the container */
+}
+
+h1, h2 {
+    text-align: center; /* Center the main headings */
+    color: #2a9df4; /* Use a soft blue color for headings */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    line-height: 1.6; /* Improve readability with line spacing */
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* List styling */
+ul {
+    list-style-type: square; /* Change bullet points to squares */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Tag styling */
+.tag {
+    display: inline-block;
+    background-color: #2a9df4; /* Blue background */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px; /* Rounded pill shape */
+    font-size: 0.9em;
+}
+
+/* Blockquote styling */
+blockquote {
+    font-style: italic;
+    color: #666;
+    padding: 10px 20px;
+    border-left: 4px solid #2a9df4; /* Blue vertical line on the left */
+    margin: 20px 0;
+    background-color: #f9f9f9; /* Light background for the quote */
+}
+
+/* Hyperlink styling */
+a {
+    color: #2a9df4; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the Back to Tribute Page link */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #2a9df4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-link:hover {
+    background-color: #1a7bc1;
+}
+
+/* Optional: Styling for mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 95%; /* Make the container full width on small screens */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}
